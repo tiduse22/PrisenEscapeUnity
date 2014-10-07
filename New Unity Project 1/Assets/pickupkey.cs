@@ -14,9 +14,7 @@ public class pickupkey : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision col){
 
-		GameObject a = GameObject.Find("key");
-		test a = col.gameObject.GetComponent <test>();
-		a.key = true;
+		col.gameObject.GetComponent <test> ().key = true;
 		Destroy (gameObject);
 		}
 }

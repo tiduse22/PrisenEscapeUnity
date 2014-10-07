@@ -14,7 +14,7 @@ public class OpenDoor : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col){
-		var door = GameObject.Find ("FirstDoor");
+		var door = GameObject.Find ("firstDoor");
 
 		if (col.gameObject.GetComponent <test>().key == true) 
 		{
