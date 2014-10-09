@@ -47,11 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CharacterMovement.cs" />
+     <Compile Include="Assets\Invis.cs" />
      <Compile Include="Assets\OpenDoor.cs" />
      <Compile Include="Assets\PixelTexturePack\Materials\Items\NewBehaviourScript.cs" />
-     <Compile Include="Assets\collision.cs" />
+     <Compile Include="Assets\Wallie.cs" />
+     <Compile Include="Assets\move.cs" />
      <Compile Include="Assets\pickupkey.cs" />
      <Compile Include="Assets\test.cs" />
+     <Compile Include="Assets\vision.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

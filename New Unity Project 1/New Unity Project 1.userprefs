@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OpenDoor.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Wallie.cs">
     <Files>
-      <File FileName="Assets\OpenDoor.cs" Line="21" Column="51" />
-      <File FileName="Assets\pickupkey.cs" Line="17" Column="51" />
-      <File FileName="Assets\collision.cs" Line="15" Column="1" />
+      <File FileName="Assets\move.cs" Line="3" Column="1" />
+      <File FileName="Assets\Invis.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenDoor.cs" Line="1" Column="1" />
+      <File FileName="Assets\pickupkey.cs" Line="1" Column="1" />
+      <File FileName="Assets\vision.cs" Line="15" Column="2" />
+      <File FileName="Assets\Wallie.cs" Line="16" Column="53" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

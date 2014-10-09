@@ -16,22 +16,22 @@ public class CharacterMovement : MonoBehaviour {
 
 		if (Input.GetKey(KeyCode.UpArrow))
         {
-            gameObject.transform.Translate(0, 0.1f, 0);
+            gameObject.transform.Translate(0, speed, 0);
             this.renderer.material.color = Color.red;
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            gameObject.transform.Translate(0, -0.1f, 0);
+            gameObject.transform.Translate(0, -speed, 0);
             this.renderer.material.color = Color.green;
         }
 		if (Input.GetKey(KeyCode.LeftArrow))
         {
-			gameObject.transform.Translate(-0.1f, 0, 0);
+			gameObject.transform.Translate(-speed, 0, 0);
             this.renderer.material.color = Color.yellow;
         }
 		if (Input.GetKey(KeyCode.RightArrow))
         {
-            gameObject.transform.Translate(0.1f, 0, 0);
+            gameObject.transform.Translate(speed, 0, 0);
             this.renderer.material.color = Color.black;
         }
 	}
