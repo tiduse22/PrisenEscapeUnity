@@ -12,13 +12,6 @@ public class collision : MonoBehaviour {
 	void Update () {
 	
 	}
-	void OnCollisionEnter(Collision col){
-		if(col.gameObject.name == "door")
-		{
-			//Destroy(col.gameObject);
-			col.collider.enabled = false;
 
-		}
-		}
 
 }
