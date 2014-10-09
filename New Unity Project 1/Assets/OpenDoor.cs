@@ -19,6 +19,14 @@ public class OpenDoor : MonoBehaviour {
 		if (col.gameObject.GetComponent <test>().key == true) 
 		{
 			door.collider.enabled = !door.collider.enabled;
+            if (door.collider.enabled)
+            {
+                door.renderer.enabled = true;
+            }
+            else if (!door.collider.enabled)
+            {
+                door.renderer.enabled = false;
+            }
 				}
 	}
 
