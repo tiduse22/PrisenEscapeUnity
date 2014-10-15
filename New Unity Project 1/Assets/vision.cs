@@ -16,9 +16,6 @@ public class vision : MonoBehaviour {
 		if (col.gameObject.name == "Player") {
 			Destroy(col.gameObject);
 
-		}
-		if (col.gameObject.name == "wall") {
-			transform.localScale += new Vector3 (0, 1, 0);
-				}				
+		}				
 		}
 }
